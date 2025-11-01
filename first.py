@@ -8,16 +8,17 @@ print("|                      3. Remove list                                    
 
 print("+-------------------------------------------------------------------------------+")
 
+task = []
 
-
-x = int(input("enter the number what do you want:"))
-
-if(x==1):
+while True:
+    x = int(input("enter the number what do you want:"))
+    if x==1:
+        while True:
+            task =input("adding tasks:")
+            y = input("Do u want to add another task? yes/no:")
+            if y=='no':
+                break
+    break      
     
-    List =input("adding tasks:")
-elif(x==2):
-    List=input("view task:")
-elif(x==3):
-    List=input("delete task:")
 
 
